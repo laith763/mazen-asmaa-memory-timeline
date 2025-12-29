@@ -529,50 +529,50 @@ body {
 /* Hero Video Styles */
 .hero-video-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   margin: 2rem auto;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 10px 40px rgba(255, 107, 157, 0.3);
   border: 2px solid rgba(255, 107, 157, 0.3);
-  background: rgba(255, 255, 255, 0.05);
+  background: #000;
   backdrop-filter: blur(10px);
   position: relative;
 }
 
 .hero-video {
   width: 100%;
-  height: auto;
-  max-height: 600px;
+  max-height: 450px;
   display: block;
   object-fit: contain;
+  border-radius: 18px;
   background: #000;
 }
-
 
 /* Mobile video optimizations */
 @media screen and (max-width: 768px) {
   .hero-video-container {
-    max-width: 95%;
+    max-width: 90%;
     margin: 1.5rem auto;
     border-radius: 15px;
   }
   
   .hero-video {
-    max-height: 400px;
+    max-height: 350px;
+    border-radius: 13px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .hero-video-container {
-    max-width: 98%;
+    max-width: 95%;
     margin: 1rem auto;
     border-radius: 12px;
     border-width: 1px;
   }
   
   .hero-video {
-    max-height: 300px;
-    border-radius: 12px;
+    max-height: 280px;
+    border-radius: 10px;
   }
 }
