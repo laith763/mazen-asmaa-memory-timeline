@@ -558,3 +558,31 @@ body {
     padding: 0.9rem 1.2rem;
   }
 }
+
+
+/* Mobile video optimizations */
+@media screen and (max-width: 768px) {
+  .hero-video-container {
+    max-width: 95%;
+    margin: 1.5rem auto;
+    border-radius: 15px;
+  }
+  
+  .hero-video {
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-video-container {
+    max-width: 98%;
+    margin: 1rem auto;
+    border-radius: 12px;
+    border-width: 1px;
+  }
+  
+  .hero-video {
+    min-height: 300px;
+    border-radius: 12px;
+  }
+}
